@@ -16,7 +16,7 @@ export default function ProjectCard({
   url,
 }: Props) {
   return (
-    <a href={url} className="project-card">
+    <a target="_blank" href={url} className="project-card">
       <img src={src} alt={imgDescription} className="project-card--image" />
       <h3 className="project--title">{title}</h3>
       <p className="project-description">{description}</p>

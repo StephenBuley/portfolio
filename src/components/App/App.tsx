@@ -18,7 +18,7 @@ function App() {
         url="https://epicduelsonline.stephenbuley.com/"
       />
       <ProjectCard
-        description={`Frontend mentor has been a great place to flex my front-end skills and test out some different things. Check out all the challenges I've completed here!`}
+        description={`Frontend mentor has been a great place to flex my front-end skills and test out some different things. Check out all the challenges I've completed!`}
         imgDescription="Frontend Mentor Challenges"
         src=""
         title="Frontend Mentor Challenges"
