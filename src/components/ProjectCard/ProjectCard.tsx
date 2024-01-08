@@ -5,6 +5,7 @@ type Props = {
   imgDescription: string
   title: string
   description: string
+  url: string
 }
 
 export default function ProjectCard({
@@ -12,12 +13,13 @@ export default function ProjectCard({
   src,
   title,
   imgDescription,
+  url,
 }: Props) {
   return (
-    <div className="project-card">
+    <a href={url} className="project-card">
       <img src={src} alt={imgDescription} className="project-card--image" />
       <h3 className="project--title">{title}</h3>
       <p className="project-description">{description}</p>
-    </div>
+    </a>
   )
 }
