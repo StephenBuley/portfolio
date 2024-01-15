@@ -1,3 +1,8 @@
+h1 {
+  font-family: 'The Seasons Regular', serif;
+  font-size: 75px;
+}
+
 .projects-container {
   width: 80%;
   max-width: 1200px;
