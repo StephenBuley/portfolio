@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+}
+
+body {
+  background-color: #162b44;
+  color: #eee;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  clip-path: ellipse(75px 100px at 50% 50%);
+}
