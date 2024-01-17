@@ -17,26 +17,3 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
-.picture-container {
-  position: relative;
-  width: 200px;
-  height: 250px;
-}
-
-.profile-picture-frame {
-  position: absolute;
-  top: -10px;
-  z-index: -1;
-  transform: scale(0.98);
-}
-
-.profile-picture {
-  position: absolute;
-  z-index: -2;
-  top: 8%;
-  left: 15%;
-  width: 150px;
-  height: 200px;
-  object-fit: cover;
-}
