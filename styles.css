@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'TT Hoves';
+  src: url('./public/TTHoves-Regular.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'The Seasons';
+  src: url('./public/Fontspring-DEMO-theseasons-lt.otf');
+  font-style: normal;
+  font-weight: normal;
+}
+
 *,
 *::after,
 *::before {
@@ -6,6 +20,13 @@
 
 html {
   margin: 0;
+  font-family: 'TT Hoves';
+}
+
+h1,
+h2 {
+  font-family: 'The Seasons', serif;
+  font-size: 75px;
 }
 
 body {
