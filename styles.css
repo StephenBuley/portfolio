@@ -24,16 +24,10 @@ html {
   font-size: 20px;
 }
 
-h1,
-h2 {
-  font-family: 'The Seasons', serif;
-  font-size: 75px;
-  margin: 0;
-}
-
 body {
-  background-color: #162b44;
+  background-color: #000;
   color: #eee;
+  margin: 0;
 }
 
 a {
@@ -41,19 +35,55 @@ a {
   color: inherit;
 }
 
-header {
-  display: flex;
-  gap: 10%;
+h1,
+h2 {
+  font-family: 'The Seasons', serif;
+  font-size: 75pt;
+  margin: 0;
+  padding-bottom: 1em;
 }
 
-header,
-section {
-  padding: 7.5%;
+/* =======HEADER SECTION======= */
+
+.header {
+  display: flex;
+  gap: 5%;
+}
+
+.header,
+.section {
+  padding: 75pt;
+}
+
+.header-left {
+  width: 100%;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header-contact-link {
+  align-self: end;
+}
+
+.tagline {
+  text-align: center;
+  border: 1px solid #eee;
+  padding: 0.75em 1.25em;
+  border-radius: 50px;
+  display: block;
+  font-size: 28px;
 }
 
 .profile-picture {
-  width: 100%;
+  width: 56%;
+  padding-bottom: 1.25rem;
 }
+
+/* =======PROJECTS SECTION======= */
 
 .projects {
   display: flex;
