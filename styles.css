@@ -80,6 +80,10 @@ h2 {
   margin: 28px 0;
 }
 
+.header-right .link-box {
+  justify-content: flex-end;
+}
+
 .header-contact-link {
   align-self: end;
   font-size: 21pt;
