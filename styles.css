@@ -43,6 +43,17 @@ h2 {
   padding-bottom: 1em;
 }
 
+.arrow {
+  width: 25px;
+  height: 25px;
+}
+
+.link-box {
+  display: flex;
+  text-align: left;
+  gap: 0.75em;
+}
+
 /* =======HEADER SECTION======= */
 
 .header {
@@ -63,6 +74,10 @@ h2 {
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+
+.header-right .arrow {
+  margin: 28px 0;
 }
 
 .header-contact-link {
@@ -92,6 +107,10 @@ h2 {
   justify-content: space-around;
 }
 
+.projects .arrow {
+  margin: 20pt 0;
+}
+
 .project-card {
   width: 30%;
   text-align: center;
@@ -104,4 +123,10 @@ h2 {
 
 .project-card > .link {
   text-align: left;
+}
+
+/* =======REACH OUT SECTION======= */
+
+#reach-out-section .arrow {
+  margin: 20pt 0;
 }
