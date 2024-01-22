@@ -132,6 +132,12 @@ h2 {
   text-align: left;
 }
 
+/* =======ABOUT ME SECTION======= */
+
+.about-me-words p {
+  font-size: 17.5pt;
+}
+
 /* =======REACH OUT SECTION======= */
 
 #reach-out-section .arrow {
