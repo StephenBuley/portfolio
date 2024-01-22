@@ -108,7 +108,7 @@ h2 {
 
 .projects {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .projects .arrow {
@@ -116,9 +116,12 @@ h2 {
 }
 
 .project-card {
-  width: 30%;
+  width: 22.5%;
   text-align: center;
-  max-width: 200px;
+}
+
+.project-link {
+  font-size: 19pt;
 }
 
 .project-card > img {
