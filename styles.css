@@ -22,6 +22,7 @@ html {
   margin: 0;
   font-family: 'TT Hoves';
   font-size: 20pt;
+  line-height: 1.2;
 }
 
 body {
@@ -41,6 +42,7 @@ h2 {
   font-size: 75pt;
   margin: 0;
   padding-bottom: 1em;
+  line-height: 0.94;
 }
 
 .arrow {
@@ -133,9 +135,36 @@ h2 {
 }
 
 /* =======ABOUT ME SECTION======= */
+#about-me-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-me-words {
+  width: 38%;
+}
+
+.about-me-words > h2 {
+  padding: 3.25vh 0;
+  margin: 0;
+}
 
 .about-me-words p {
   font-size: 17.5pt;
+  width: 75%;
+}
+
+.am-hr {
+  width: 42%;
+  margin: 50px 0;
+}
+
+.am-img-container {
+  width: 38%;
+}
+
+.about-me-img {
+  width: 89%;
 }
 
 /* =======REACH OUT SECTION======= */
