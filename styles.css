@@ -172,3 +172,42 @@ h2 {
 #reach-out-section .arrow {
   margin: 20pt 0;
 }
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link {
+  width: 30%;
+}
+
+.footer-link-name {
+  margin-bottom: 0;
+}
+
+.footer-link:last-of-type {
+  width: 20%;
+}
+
+.footer-link-info {
+  margin-top: 0.5em;
+  font-size: 19pt;
+  color: #868686;
+}
+
+.fa-linkedin-square,
+.fa-github-square {
+  margin-top: 0.5em;
+}
+
+.fa-linkedin-square::before,
+.fa-github-square::before {
+  font-size: 2em;
+  margin-right: 1em;
+}
+
+#reach-out-section .link-box {
+  justify-content: end;
+  font-size: 21pt;
+}
