@@ -21,7 +21,8 @@
 html {
   margin: 0;
   font-family: 'TT Hoves';
-  font-size: 20pt;
+  /* font size for document will be 20px for easy math */
+  font-size: 20px;
   line-height: 1.2;
 }
 
@@ -39,15 +40,16 @@ a {
 h1,
 h2 {
   font-family: 'The Seasons', serif;
-  font-size: 75pt;
+  /* 75pt font * 4 / 3 = 100px / 20px = 5rem  */
+  font-size: 5rem;
   margin: 0;
   padding-bottom: 1em;
   line-height: 0.94;
 }
 
 .arrow {
-  width: 25px;
-  height: 25px;
+  width: 1.25rem;
+  height: 1.25rem;
 }
 
 .link-box {
@@ -65,7 +67,7 @@ h2 {
 
 .header,
 .section {
-  padding: 75pt;
+  padding: 5rem;
 }
 
 .header-left {
@@ -79,7 +81,8 @@ h2 {
 }
 
 .header-right .arrow {
-  margin: 28px 0;
+  /* TODO: COME BACK AND FIX THIS */
+  margin: 1.4rem 0;
 }
 
 .header-right .link-box {
@@ -88,22 +91,25 @@ h2 {
 
 .header-contact-link {
   align-self: end;
-  font-size: 21pt;
+  /* 21pt * 4 / 3 = 28px / 20px = 1.4rem*/
+  font-size: 1.4rem;
 }
 
 .tagline {
   text-align: center;
   border: 1px solid #eee;
   padding: 0.75em 1.25em;
-  border-radius: 50px;
+  border-radius: 100px;
   display: block;
-  font-size: 28pt;
+  /* 28pt * 4 / 3 = 37.3px / 20px = 1.87rem */
+  font-size: 1.87rem;
   width: 80%;
 }
 
 .profile-picture {
   width: 67%;
-  padding-bottom: 1.25rem;
+  padding-bottom: 1.67rem;
+  margin-left: 1em;
 }
 
 /* =======PROJECTS SECTION======= */
@@ -114,7 +120,7 @@ h2 {
 }
 
 .projects .arrow {
-  margin: 20pt 0;
+  margin: 1.33rem 0;
 }
 
 .project-card {
@@ -123,7 +129,8 @@ h2 {
 }
 
 .project-link {
-  font-size: 19pt;
+  /* 19pt * 4 / 3 = 25.3px / 20px = 1.27rem */
+  font-size: 1.27rem;
 }
 
 .project-card > img {
@@ -141,7 +148,7 @@ h2 {
 }
 
 .about-me-words {
-  width: 38%;
+  width: 430px;
 }
 
 .about-me-words > h2 {
@@ -150,13 +157,14 @@ h2 {
 }
 
 .about-me-words p {
-  font-size: 17.5pt;
-  width: 75%;
+  /* 17.5pt * 4 / 3 = 23.3px / 20px = 1.17rem */
+  font-size: 1.17rem;
+  width: 340px;
 }
 
 .am-hr {
   width: 42%;
-  margin: 50px 0;
+  margin: 2.4rem 0;
 }
 
 .am-img-container {
@@ -170,7 +178,7 @@ h2 {
 /* =======REACH OUT SECTION======= */
 
 #reach-out-section .arrow {
-  margin: 20pt 0;
+  margin: 1.33rem 0;
 }
 
 .footer-links {
@@ -184,6 +192,8 @@ h2 {
 
 .footer-link-name {
   margin-bottom: 0;
+  /* 20pt * 4 / 3 = 26.7px / 20px = 1.33rem */
+  font-size: 1.33rem;
 }
 
 .footer-link:last-of-type {
@@ -192,7 +202,8 @@ h2 {
 
 .footer-link-info {
   margin-top: 0.5em;
-  font-size: 19pt;
+  /* 19pt * 4 / 3 = 25.3px / 20px = 1.27rem */
+  font-size: 1.27rem;
   color: #868686;
 }
 
@@ -209,5 +220,12 @@ h2 {
 
 #reach-out-section .link-box {
   justify-content: end;
-  font-size: 21pt;
+  /* 21pt * 4 / 3 = 28px / 20px = 1.4rem */
+  font-size: 1.4rem;
 }
+
+/* BREAKPOINTS/RESPONSIVE TODOS
+
+breakpoint at width: 1108
+put max/min widths on some of these things
+*/
