@@ -238,7 +238,7 @@ h2 {
 
 @media (max-width: 650px) {
   html {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .header {
@@ -267,10 +267,25 @@ h2 {
     align-self: center;
     font-size: 1.75rem;
   }
+
+  .projects {
+    flex-direction: column;
+  }
+
+  .project-card {
+    width: 75%;
+    margin: 2em auto;
+  }
+
+  .project-card > img {
+    max-width: 200px;
+  }
+
+  .project-link {
+    text-align: center;
+  }
 }
 
 /* BREAKPOINTS/RESPONSIVE TODOS
-
-breakpoint at width: 1108
 put max/min widths on some of these things
 */
