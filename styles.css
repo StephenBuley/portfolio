@@ -224,6 +224,51 @@ h2 {
   font-size: 1.4rem;
 }
 
+@media (max-width: 1108px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 650px) {
+  html {
+    font-size: 10px;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+
+  .tagline {
+    width: 100%;
+  }
+
+  .header-left {
+    margin-bottom: 3em;
+  }
+
+  .profile-picture {
+    width: auto;
+    height: 45vh;
+    margin: 0 auto;
+  }
+
+  .header-right .link-box {
+    justify-content: center;
+  }
+
+  .header-contact-link {
+    align-self: center;
+    font-size: 1.75rem;
+  }
+}
+
 /* BREAKPOINTS/RESPONSIVE TODOS
 
 breakpoint at width: 1108
