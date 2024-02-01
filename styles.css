@@ -277,6 +277,10 @@ h2 {
     margin: 2em auto;
   }
 
+  .project-card:last-of-type {
+    margin: 2em auto 0 auto;
+  }
+
   .project-card > img {
     max-width: 200px;
   }
@@ -284,8 +288,63 @@ h2 {
   .project-link {
     text-align: center;
   }
+
+  #about-me-section {
+    flex-direction: column;
+  }
+
+  .about-me-words > h2 {
+    padding: 0;
+  }
+
+  .about-me-words {
+    width: 100%;
+  }
+
+  .about-me-words p {
+    width: 100%;
+  }
+
+  .am-img-container {
+    width: 100%;
+  }
+
+  .about-me-img {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: 55vh;
+  }
+  /* I want the image to either be
+   if the width is greater than the width of the container
+     width: 100%
+     height: auto
+   if the width is less than the height of the container
+     width: auto
+     height: 55vh
+    could I calculate what the ideal
+
+  */
+
+  .footer-links {
+    flex-direction: column;
+  }
+
+  .footer-link,
+  .footer-link:last-of-type {
+    width: auto;
+  }
 }
 
-/* BREAKPOINTS/RESPONSIVE TODOS
-put max/min widths on some of these things
-*/
+@media (width < 50.5vh) {
+  .about-me-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 300px) {
+  html {
+    font-size: 8px;
+  }
+}
