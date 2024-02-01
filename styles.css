@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'TT Hoves';
-  src: url('./public/TTHoves-Regular.ttf');
+  src: url('images/TTHoves-Regular.ttf');
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'The Seasons';
-  src: url('./public/Fontspring-DEMO-theseasons-lt.otf');
+  src: url('images/Fontspring-DEMO-theseasons-lt.otf');
   font-style: normal;
   font-weight: normal;
 }
